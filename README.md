@@ -1,6 +1,6 @@
 # Chocolatey offline installer
 Whenever I'd not not use configuration management and offline installation tasks there, I go back to this notes. <br> Got me packet with all self hosted dependencies pwsh, .Net Framework 4.8.1 and 7zip. <br>
-It's based on official documentation: https://docs.chocolatey.org/en-us/choco/setup/#chocolatey-cli-v20
+It's based on official documentation: [Completely offline install](https://docs.chocolatey.org/en-us/choco/setup/#completely-offline-install)
 
 
 1. Prerequisites are present on [Windows machine](https://docs.chocolatey.org/en-us/chocolatey-components-dependencies-and-support-lifecycle/#supported-windows-versions):
