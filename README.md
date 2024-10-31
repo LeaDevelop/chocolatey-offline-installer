@@ -26,4 +26,6 @@ param(
 5. Open up PowerShell and run `install.ps1`
 
 ----
-This project includes content derived from the official Chocolatey documentation. Portions of this documentation are modifications based on work created and shared by the Chocolatey community. Official [Chocolatey Documentation](https://docs.chocolatey.org/) :: Official License [Apache License 2.0](https://github.com/chocolatey/docs?tab=Apache-2.0-1-ov-file#readme) <br>
+This project includes content derived from the official Chocolatey documentation.<br>
+Portions of this documentation are modifications based on work created and shared by the Chocolatey community.<br>
+Official [Chocolatey Documentation](https://docs.chocolatey.org/) :: Official License [Apache License 2.0](https://github.com/chocolatey/docs?tab=Apache-2.0-1-ov-file#readme) <br>
