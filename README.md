@@ -1,6 +1,5 @@
 # Chocolatey offline installer
-Whenever I'd not not use configuration management and offline installation tasks there, I go back to this notes. <br> Got me packet with all self hosted dependencies pwsh, .Net Framework 4.8.1 and 7zip. <br>
-It's based on official documentation: [Completely offline install](https://docs.chocolatey.org/en-us/choco/setup/#completely-offline-install)
+This repository serves as my reference when working in environments that lack configuration management or require offline installation. It's based on official documentation: [Completely offline install](https://docs.chocolatey.org/en-us/choco/setup/#completely-offline-install).
 
 
 1. Prerequisites are present on [Windows machine](https://docs.chocolatey.org/en-us/chocolatey-components-dependencies-and-support-lifecycle/#supported-windows-versions):
@@ -21,7 +20,7 @@ param(
     # Can be used for offline installation by providing a path to a Chocolatey.nupkg.
     [Parameter(Mandatory = $false)]
     [string]
-    $ChocolateyDownloadUrl = 'file:C:\OfflineInstaller\chocolatey.2.3.0.nupkg',
+    $ChocolateyDownloadUrl = 'file:C:\OfflineInstaller\chocolatey.2.5.1.nupkg',
 ```
 5. Open up PowerShell and run `install.ps1`
 
