@@ -8,11 +8,11 @@ This repository serves as my reference when working in environments that lack co
    - 7zip or you can enable windows built in option in _install.ps1_ file
      - `set $env:chocolateyUseWindowsCompression = 'true'` <br>
 
-1.1. Official download links for offline prerequisites:
-   - PowerShell: https://github.com/PowerShell/PowerShell/releases
-   - .NET: https://dotnet.microsoft.com/en-us/download
-   - 7-zip: https://7-zip.org/download.html
-   - https://community.chocolatey.org/packages/chocolatey
+   1.1. Official download links for offline prerequisites:
+     - PowerShell: https://github.com/PowerShell/PowerShell/releases
+     - .NET: https://dotnet.microsoft.com/en-us/download
+     - 7-zip: https://7-zip.org/download.html
+     - Chocolatey: https://community.chocolatey.org/packages/chocolatey
   
 2. Downloaded _install.ps1_ script from https://community.chocolatey.org/install.ps1 <br> Locate into your preferred directory, for this example I used `C:\OfflineInstaller`
 3. Download Chocolatey package you intend to install, locate it to same directory as _install.ps1_ in previous step.
